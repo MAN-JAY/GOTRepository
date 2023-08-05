@@ -1,0 +1,68 @@
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  /* height: 80vh;  Ensures the whole viewport is centered */
+  }
+
+.single-character-card {
+  margin-top:100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  max-width: 400px;
+  padding: 40px;
+  border-radius: 50px;
+  box-shadow: 0px 0px 10px rgba(218, 130, 130, 0.1);
+  background-color: #ffffff;
+  border-color: antiquewhite;
+}
+.single-character-card-favourite{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  max-width: 400px;
+  padding: 40px;
+  border-radius: 50px;
+  box-shadow: 0px 0px 10px rgba(218, 130, 130, 0.1);
+  background-color: #ffffff00;
+  border-color: rgb(250, 241, 215);
+}
+
+.single-character-card img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+  display: block;
+}
+
+.single-character-card h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.single-character-card p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.single-character-card button {
+  cursor: pointer;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  display: block;
+  margin: 10px auto;
+}
+
+.single-character-card button:hover {
+  background-color: #0056b3;
+}

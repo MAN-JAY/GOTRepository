@@ -1,0 +1,72 @@
+/* Styling for the character cards*/
+.character-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #f8f8f8;
+  max-width: 80px;
+  max-height:120px;
+  margin-bottom: 16px;
+  color: rgb(196, 212, 255);
+  
+}
+.character-card h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.character-card img {
+  width: 50px;
+  height: 65px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-bottom: 4px;
+}
+
+/*Styling for the family tree nodes*/
+.family-tree-node {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+/* Styling for the family tree children*/
+.family-tree-children {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+/*Styling for the overall family tree container*/
+.family-tree {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.character-card :hover {
+  background-color: #0e78f1;
+  cursor: pointer;
+}
+.container {
+  margin-top:150px;
+  position:relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #0f3fe452;
+  border-radius: 20px;
+}
+
+.heading {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color:#0a0ad7
+}
